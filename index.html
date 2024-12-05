@@ -2,10 +2,16 @@
 <html lang="pt-BR">
 
 <head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Paulina Rigotti de Castro</title>
   <link rel="stylesheet" href="./styles/index.css">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
 </head>
 
 <body>
@@ -13,28 +19,34 @@
   <header class="container">
     <div id="navegacao">
       <div class="logo">
-        <img src="" alt="Logo da escola Paulina Rigotti de Castro">
+        <img src="./assets/logo.png" alt="Logo da escola Paulina Rigotti de Castro">
         <h3>EE Paulina Rigotti De Castro</h3>
       </div>
 
       <nav class="opcoes_navegacao">
-        <a href="#">INÍCIO</a>
-        <a href="#">SOBRE NÓS</a>
+        <a href="#conteudo_banner">INÍCIO</a>
+        <a href="#sobre_nos">SOBRE NÓS</a>
         <a href="#">CURSOS</a>
         <a href="#">PROJETOS</a>
         <a href="#">CONTATO</a>
       </nav>
     </div>
-
-    <div class="banner">
-      <img src="" alt="Foto de frente a escola paulina Rigotti de Castro">
-      <div class="conteudo_banner">
-        <h1>AMPLIE SEUS HORIZONTES</h1>
-        <h3>CONHECIMENTO É A CHAVE PARA O SUCESSO</h3>
-        <button class="botao_generico">Saiba Mais</button>
-      </div>
-    </div>
   </header>
+
+  <div class="banner">
+    <div id="conteudo_banner">
+      <h1>AMPLIE SEUS HORIZONTES</h1>
+      <div class="subtitulo">
+        <h3>CONHECIMENTO É A CHAVE PARA </h3>
+        <h3>O SUCESSO</h3>
+      </div>
+      <button class="botao_generico"><a href="#sobre_nos">Saiba mais</a></button>
+    </div>
+  </div>
+
+  <div class="container">
+    <hr class="divisoria">
+  </div>
 
   <main class="container">
 
@@ -142,7 +154,6 @@
 
 
   <div class="bg_color_footer">
-
     <footer class="container">
       <div>
         <h5>Principal</h5>
