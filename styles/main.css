@@ -18,6 +18,7 @@
     display: flex;
     gap: 135px;
     align-items: center;
+    margin-bottom: 135px;
 
     & img {
       width: 584px;
@@ -41,4 +42,95 @@
 
     }
   }
+}
+
+
+.bg_color_cursos {
+  background-color: var(--light-gray);
+  max-width: 100vw;
+}
+
+#cursos {
+
+  & h4 {
+    margin-top: 78px;
+    margin-bottom: 16px;
+    font: var(--title-sm);
+  }
+
+  & h2 {
+    font: var(--title-md);
+    margin-bottom: 68px;
+    color: var(--base-blue);
+  }
+
+  & .cursos {
+    display: flex;
+    gap: 32px;
+
+
+    & .card-curso {
+      width: 300px;
+    }
+
+    & h3 {
+      font: var(--title-sm);
+      color: var(--dark-gray);
+      margin-bottom: 28px;
+    }
+
+    & p {
+      font: var(--text-sm);
+      color: var(--base-gray);
+      margin-bottom: 55px;
+    }
+  }
+}
+
+
+#coordenacao {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  & h2 {
+    font: var(--title-md);
+    margin-top: 135px;
+    margin-bottom: 61px;
+    color: var(--base-blue);
+  }
+
+
+
+  & .cards-coordenadores {
+    display: flex;
+
+    & .card-coordenador {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      p {
+        text-align: center;
+        margin-bottom: 12px;
+        font: var(--text-sm);
+      }
+
+      & .foto_pessoa {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+      }
+
+      & span {
+        font: var(--text-md);
+      }
+    }
+
+  }
+}
+
+.cards-coordenadores .card-coordenador:nth-child(1),
+.cards-coordenadores .card-coordenador:nth-child(3) {
+  margin-top: 22px;
 }

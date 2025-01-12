@@ -7,7 +7,7 @@
 :root {
   --dark-gray: #313131;
   --base-gray: #8E8E8E;
-  --light-gray: #FFFFFF;
+  /* --light-gray: #FFFFFF; */
   --base-blue: #197EF3;
   --dark-blue: #1669CA;
   --light-gray: #D7E9FF;
@@ -16,7 +16,8 @@
   --title-lg: bold 64px/100% var(--font-family);
   --title-md: 32px/100% var(--font-family);
   --title-sm: 18px/100% var(--font-family);
-  --text-md: 16px/100% var(--font-family);
+  --text-md: 16px/120% var(--font-family);
+  --text-sm: 14px/150% var(--font-family);
 }
 
 
