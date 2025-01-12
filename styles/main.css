@@ -134,3 +134,23 @@
 .cards-coordenadores .card-coordenador:nth-child(3) {
   margin-top: 22px;
 }
+
+#matricular {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+  margin-top: 177px;
+  font: var(--text-md);
+  color: var(--base-blue);
+
+  & button {
+    color: white;
+    font: var(--text-md);
+  }
+}
+
+#localizacao {
+  margin-top: 140px;
+  margin-bottom: 140px;
+}

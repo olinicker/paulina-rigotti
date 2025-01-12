@@ -1,0 +1,45 @@
+.bg_color_footer {
+  background-color: var(--dark-blue);
+}
+
+#footer {
+  display: flex;
+  flex-direction: row;
+  align-items: start;
+  gap: 122px;
+
+  & h5 {
+    font: var(--text-md);
+    color: white;
+  }
+
+  & div {
+    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+
+    margin-bottom: 64px;
+
+    & ul {
+      display: flex;
+      flex-direction: column;
+      gap: 24px;
+    }
+  }
+
+  & a,
+  p {
+    text-decoration: none;
+    color: white;
+    font: var(--text-sm);
+  }
+
+  & a:hover {
+    color: rgb(163, 163, 163);
+  }
+
+  & li {
+    list-style-type: none;
+  }
+}
