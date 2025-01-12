@@ -1,0 +1,90 @@
+@media (max-width: 640px) {
+  .banner {
+    height: 500px;
+
+    #conteudo_banner {
+      margin-top: 142px;
+
+      & h1 {
+        font-size: 1.6rem;
+        margin: 0;
+      }
+
+      & h3 {
+        font: var(--title-sm);
+      }
+    }
+  }
+
+  .divisoria {
+    margin-top: 40px;
+    margin-bottom: 24px;
+    width: 300px;
+  }
+
+  #sobre_nos {
+
+    & h4 {
+      font-size: 1.0rem;
+    }
+
+    & h2 {
+      font-size: 1.2rem;
+    }
+
+    & .nossa_historia {
+      margin-bottom: 10px;
+      gap: 40px;
+
+      & img {
+        width: 340px;
+        height: 200px;
+      }
+    }
+  }
+
+  #cursos {
+    margin-top: 18px;
+    margin-bottom: 16px;
+
+    & h4 {
+      margin-top: 42px;
+      font-size: 1.0rem;
+    }
+
+    & h2 {
+      font-size: 1.2rem;
+      margin-bottom: 42px;
+    }
+
+    .cursos {
+      flex-direction: column;
+
+      p {
+        margin-bottom: 12px;
+      }
+    }
+  }
+
+  #conteudo_banner {
+    .banner {
+      height: 280px;
+    }
+
+    & h1 {
+      font-size: 0.6rem;
+    }
+  }
+
+  #sobre_nos .nossa_historia {
+    flex-direction: column;
+  }
+
+  #footer {
+    flex-direction: column;
+  }
+
+  #coordenacao .cards-coordenadores {
+    flex-direction: column;
+  }
+}
