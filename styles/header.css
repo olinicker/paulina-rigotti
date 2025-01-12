@@ -62,6 +62,11 @@
       font: var(--title-lg);
     }
 
+    p {
+      color: aliceblue;
+
+    }
+
     h3 {
       font: var(--title-md);
     }
