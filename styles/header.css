@@ -1,28 +1,18 @@
- /*#navegacao {
+ .navbar-brand {
   display: flex;
   align-items: center;
-  width: 100%;
-  flex-wrap: wrap;
-  padding-left: 62px;
-  padding-right: 104px;
-  padding-block: 16px;
-  color: var(--dark-gray);
+  gap: 1rem; 
+}
 
-  .opcoes_navegacao {
-    a {
-      font: var(--text-md);
-      text-decoration: none;
-      color: var(--dark-gray);
-    }
+.navbar-brand img {
+  display: block; 
+}
 
-    a:hover {
-      color: var(--base-blue);
-    }
+.navbar-brand h1 {
+  font-size: 1.5rem; 
+  margin: 0; 
+}
 
-    display: flex;
-    gap: 38px;
-  } 
- } */
 
  .banner {
    background-image: url(../assets/background.jpg);
