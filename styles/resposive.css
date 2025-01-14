@@ -50,6 +50,8 @@
     }
 
     & .nossa_historia {
+
+      max-width: 300px;
       margin-bottom: 10px;
       gap: 40px;
 
