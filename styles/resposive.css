@@ -124,7 +124,8 @@
 
 
   #matricular {
-    margin-top: 64px;
+    margin-top: 128px;
+    max-width: 300px;
 
     & h2 {
       font-size: 1.2rem;
