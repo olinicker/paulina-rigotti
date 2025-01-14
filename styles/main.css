@@ -95,8 +95,8 @@
 
   & h2 {
     font: var(--title-md);
-    margin-top: 135px;
-    margin-bottom: 61px;
+    margin-top: 64px;
+    margin-bottom: 64px;
     color: var(--base-blue);
   }
 
@@ -104,6 +104,7 @@
 
   & .cards-coordenadores {
     display: flex;
+    gap: 64px;
 
     & .card-coordenador {
       display: flex;
@@ -130,10 +131,6 @@
   }
 }
 
-.cards-coordenadores .card-coordenador:nth-child(1),
-.cards-coordenadores .card-coordenador:nth-child(3) {
-  margin-top: 22px;
-}
 
 #matricular {
   display: flex;

@@ -33,6 +33,7 @@
      align-items: center;
 
      h1 {
+       margin-top: 128px;
        font: var(--title-lg);
      }
 
