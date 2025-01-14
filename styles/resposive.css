@@ -82,6 +82,12 @@
 
   #footer {
     flex-direction: column;
+    gap: 5px;
+
+    & div {
+      margin-top: 10px;
+      margin-bottom: 10px;
+    }
   }
 
   #coordenacao .cards-coordenadores {

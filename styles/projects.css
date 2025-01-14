@@ -12,7 +12,8 @@ body {
 
 /* Main Content */
 main {
-    padding-top: 160px; /* Espaço para o header fixo */
+    padding-top: 160px;
+    /* Espaço para o header fixo */
     max-width: 1200px;
     margin: 0 auto;
     padding-left: 2rem;
@@ -22,7 +23,7 @@ main {
 /* Ajustes do Header com Bootstrap */
 .navbar {
     background-color: white !important;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 .navbar-brand h1 {
@@ -44,6 +45,7 @@ main {
 /* Projects Section */
 .projects-header {
     text-align: center;
+    margin-top: 60px;
     margin-bottom: 3rem;
 }
 
@@ -68,7 +70,7 @@ main {
     background-color: #fff;
     padding: 2rem;
     border-radius: 12px;
-    box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
 }
 
 .project-content {
@@ -81,10 +83,10 @@ main {
 
 .project-image img {
     max-width: 100%;
-    height: 350px; 
+    height: 350px;
     object-fit: cover;
     border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .project-item h3 {
@@ -102,7 +104,7 @@ main {
 
 /* Footer */
 footer {
-    background-color: #1e88e5;
+    background-color: var(--dark-blue);
     color: white;
     padding: 4rem 0;
     margin-top: 4rem;
@@ -145,7 +147,7 @@ footer {
     main {
         padding-top: 140px;
     }
-    
+
     .project-item {
         flex-direction: column;
         padding: 1.5rem;
