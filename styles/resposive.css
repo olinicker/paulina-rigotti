@@ -148,5 +148,10 @@
   #localizacao {
     margin-bottom: 12px;
     margin-top: 64px;
+
+    iframe {
+      width: 320px;
+      height: 320px;
+    }
   }
 }
